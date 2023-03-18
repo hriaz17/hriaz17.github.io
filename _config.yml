@@ -13,7 +13,7 @@ name                     : &name "Haris Riaz"
 description              : &description "Undergrad student. Aspiring computational linguistics researcher. Novice cook. Affiliations: NUST, CERN."
 url                      : https://harisriaz17.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "harisriaz17/harisriaz17.github.io"
+repository               : "hriaz17/hriaz17.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
