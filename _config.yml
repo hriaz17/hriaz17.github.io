@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Haris Riaz"
 title_separator          : "-"
 name                     : &name "Haris Riaz"
-description              : &description "Undergrad student. Aspiring computational linguistics researcher. Novice cook. Affiliations: NUST, CERN."
+description              : &description "PhD student @ University of Arizona. Working on simple heuristics for automatic data labelling in NLP. Also interested in improving reasoning in LLMs via Natural logic."
 url                      : https://harisriaz17.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "hriaz17/hriaz17.github.io"
@@ -80,8 +80,8 @@ analytics:
 author:
   name             : "Haris Riaz"
   avatar           : "profile.png"
-  bio              : "Undergrad student. Aspiring computational linguistics researcher. Novice cook. Affiliations: NUST, CERN."
-  location         : "Pakistan"
+  bio              : "PhD student @ University of Arizona. Working on simple heuristics for automatic data labelling in NLP. Also interested in improving reasoning in LLMs via Natural logic."
+  location         : "Tucson, Arizona"
   employer         :
   pubmed           : 
   googlescholar    : # example: "http://yourfullgooglescholarurl.com"
@@ -94,7 +94,7 @@ author:
   flickr           :
   facebook         : "harisriaz17"
   foursquare       :
-  github           : "harisriaz17"
+  github           : "hriaz17"
   google_plus      :
   keybase          :
   instagram        :
