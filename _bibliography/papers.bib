@@ -1,115 +1,87 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
-}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
+@inproceedings{gorbunov2021deep,
+  title={Deep neural network techniques in the calibration of space-charge distortion fluctuations for the ALICE TPC},
+  author={Gorbunov, Sergey and Hellbär, Ernst and Innocenti, Gian Michele and Ivanov, Marian and Kabus, Maja and Kleiner, Matthias and Riaz, Haris and Rohr, David and Sadikin, Rifki and Schweda, Kai and others},
+  booktitle="Proceedings of the 25th International Conference on Computing in High Energy and Nuclear Physics (CHEP 2021)",
+  volume={251},
+  pages={03020},
+  month = august,
+  year={2021},
+  publisher={EDP Sciences},
+  doi={10.1051/epjconf/202125103020},
+  url={https://www.epj-conferences.org/articles/epjconf/pdf/2021/05/epjconf_chep2021_03020.pdf},
   selected={true},
-  inspirehep_id = {3255}
+  pdf={alice-tpc.pdf}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@inproceedings{vacareanu-etal-2024-best,
+    title = "Best of Both Worlds: A Pliable and Generalizable Neuro-Symbolic Approach for Relation Classification",
+    author = "Vacareanu, Robert  and
+      Alam, Fahmida  and
+      Islam, Md Asiful  and
+      Riaz, Haris  and
+      Surdeanu, Mihai",
+    editor = "Duh, Kevin  and
+      Gomez, Helena  and
+      Bethard, Steven",
+    booktitle = "Findings of the Association for Computational Linguistics: NAACL 2024",
+    month = jun,
+    year = "2024",
+    address = "Mexico City, Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-naacl.165/",
+    doi = "10.18653/v1/2024.findings-naacl.165",
+    pages = "2576--2594",
+    abstract = "This paper introduces a novel neuro-symbolic architecture for relation classification (RC) that combines rule-based methods with contemporary deep learning techniques. This approach capitalizes on the strengths of both paradigms: the adaptability of rule-based systems and the generalization power of neural networks. Our architecture consists of two components: a declarative rule-based model for transparent classification and a neural component to enhance rule generalizability through semantic text matching.Notably, our semantic matcher is trained in an unsupervised domain-agnostic way, solely with synthetic data.Further, these components are loosely coupled, allowing for rule modifications without retraining the semantic matcher.In our evaluation, we focused on two few-shot relation classification datasets: Few-Shot TACRED and a Few-Shot version of NYT29. We show that our proposed method outperforms previous state-of-the-art models in three out of four settings, despite not seeing any human-annotated training data.Further, we show that our approach remains modular and pliable, i.e., the corresponding rules can be locally modified to improve the overall model. Human interventions to the rules for the TACRED relation org:parents boost the performance on that relation by as much as 26{\%} relative improvement, without negatively impacting the other relations, and without retraining the semantic matching component.",
+    selected={true},
+    pdf={softrules.pdf},
+    code={https://github.com/hriaz17/softrules}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+
+@inproceedings{riaz-etal-2024-ellen,
+    title = "{ELLEN}: Extremely Lightly Supervised Learning for Efficient Named Entity Recognition",
+    author = "Riaz, Haris  and
+      Dumitru, Razvan Gabriel  and
+      Surdeanu, Mihai",
+    editor = "Calzolari, Nicoletta  and
+      Kan, Min-Yen  and
+      Hoste, Veronique  and
+      Lenci, Alessandro  and
+      Sakti, Sakriani  and
+      Xue, Nianwen",
+    booktitle = "Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)",
+    month = may,
+    year = "2024",
+    address = "Torino, Italia",
+    publisher = "ELRA and ICCL",
+    url = "https://aclanthology.org/2024.lrec-main.499/",
+    pages = "5622--5636",
+    abstract = "In this work, we revisit the problem of semi-supervised named entity recognition (NER) focusing on extremely light supervision, consisting of a lexicon containing only 10 examples per class. We introduce ELLEN, a simple, fully modular, neuro-symbolic method that blends fine-tuned language models with linguistic rules. These rules include insights such as {\textquotedblleft}One Sense Per Discourse{\textquotedblright}, using a Masked Language Model as an unsupervised NER, leveraging part-of-speech tags to identify and eliminate unlabeled entities as false negatives, and other intuitions about classifier confidence scores in local and global context. ELLEN achieves very strong performance on the CoNLL-2003 dataset when using the minimal supervision from the lexicon above. It also outperforms most existing (and considerably more complex) semi-supervised NER methods under the same supervision settings commonly used in the literature (i.e., 5{\%} of the training data). Further, we evaluate our CoNLL-2003 model in a zero-shot scenario on WNUT-17 where we find that it outperforms GPT-3.5 and achieves comparable performance to GPT-4. In a zero-shot setting, ELLEN also achieves over 75{\%} of the performance of a strong, fully supervised model trained on gold data. Our code is publicly available.",
+    selected={true},
+    pdf={ellen.pdf},
+    code={https://github.com/hriaz17/ELLEN}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@misc{RiazSayLess2025,
+  title={Say Less, Mean More: Leveraging Pragmatics in Retrieval-Augmented Generation},
+  author={Haris Riaz and Ellen Riloff and Mihai Surdeanu},
+  month = jan,
+  year={2025},
+  note={Under Submission},
+  url={https://openreview.net/pdf?id=rjjqKVuRlH},
+  abstract = "We propose a simple, unsupervised method that injects pragmatic principles in retrieval-augmented generation (RAG) frameworks such as Dense Passage Retrieval [9]. Our approach first identifies which sentences in a pool of documents retrieved by RAG are most relevant to the question at hand, cover all the topics addressed in the input question and no more, and then highlights these sentences in the documents before they are provided to the LLM. We show that this simple idea brings consistent improvements in experiments on three question answering tasks (ARC-Challenge, PubHealth and PopQA) using three different LLMs. It notably enhances accuracy by up to 19.7% compared to a conventional RAG system on PubHealth.",
+  selected={true},
+  pdf={saylessRAG.pdf},
+  code={https://github.com/hriaz17/SayLessRAG}
 }
 
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@misc{RiazMetaSynth2025,
+  title={MetaSynth: Meta-Prompting Your Large Language Model to Generate Formally Diverse Synthetic Data},
+  month = jan,
+  year={2025},
+  note={Under Submission},
+  selected={true}
 }
