@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-New paper: [Say Less Mean More: Leveraging Pragmatics in Retrieval-Augmented Generation](https://openreview.net/pdf?id=rjjqKVuRlH). Under submission.
+New paper: [Say Less Mean More: Leveraging Pragmatics in Retrieval-Augmented Generation](https://arxiv.org/abs/2502.17839). Under submission.

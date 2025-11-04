@@ -7,7 +7,7 @@ permalink: /
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   more_info: >
     <p>710 Gould Simpson</p>
     <p>1040 E 4th Street</p>
@@ -21,7 +21,10 @@ scholar:
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a PhD student at the University of Arizona, advised by Professor [Mihai Surdeanu](https://surdeanu.cs.arizona.edu/mihai/). My primary area of interest is the use of structured (expert knowledge) by Large Language Models (LLM) agents. Specifically I have developed Neuro-symbolic techniques for parametrically integrating knowledge from symbolic reasoners in LLMs via reward modeling, and generating synthetic reward feedback data using weak supervision techniques. I have also previously worked on meta-algorithms for increasing diversity in LLM generated synthetic data, incorporating causal reasoning and pragmatics into retrieval augmented generation (RAG) frameworks, and exploiting structured linguistic knowledge for information extraction task.
+I am a PhD student at the <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Arizona_Wildcats_logo.svg/1108px-Arizona_Wildcats_logo.svg.png" alt="UA" height="20" style="vertical-align: middle;"> [University of Arizona](https://www.arizona.edu/), advised by Professor [Mihai Surdeanu](https://surdeanu.cs.arizona.edu/mihai/) at the <img src="https://clulab.org/assets/images/clulab.png" alt="CLU Lab" height="24" style="vertical-align: middle;"> [CLU Lab](https://clulab.org/). My research focuses on enabling Large Language Models (LLMs) to effectively leverage structured expert knowledge.
+
+I have developed neuro-symbolic techniques that parametrically integrate knowledge from symbolic reasoners into LLMs for constraint satisfaction problems, and created methods for generating synthetic reward feedback data through weak supervision. My work also includes designing meta-algorithms to enhance diversity in LLM-generated synthetic data, integrating causal reasoning and pragmatics into retrieval-augmented generation (RAG) frameworks, and leveraging structured linguistic knowledge for information extraction tasks.
+
 
 Before joining the UofA, I completed my undergraduate studies in Computer Science at the [School of Electrical Engineering and Computer Science](https://seecs.nust.edu.pk) at the [National University of Sciences and Technology](https://nust.edu.pk) in 2021.
 
