@@ -21,13 +21,12 @@ scholar:
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a PhD student at the University of Arizona, advised by Professor [Mihai Surdeanu](https://surdeanu.cs.arizona.edu/mihai/). My primary area of interest is the faithfulness and causality of reasoning in Large Language Models. Specifically I study strategies for internally integrating knowledge from symbolic reasoners in LLMs via reward modeling, and generating synthetic reward feedback data using weak supervision techniques. I have worked on meta-algorithms for synthetic data generation, incorporating causal reasoning and pragmatics into retrieval augmented generation (RAG) frameworks as a downstream application of my research interest, and exploiting linguistic hints as weak supervision for the NER task.
-
-Recently I completed my internship at Amazon Web Services, where I was an Applied Scientist Intern on the Amazon Science Bedrock team. I worked on an agentic meta-approach for formally diverse synthetic data generation which can be used to adapt LLMs to specific domains requiring only a small amount of synthetic data and without using any real data. This work resulted in a paper currently under review @ ACL 2025.
+I am a PhD student at the University of Arizona, advised by Professor [Mihai Surdeanu](https://surdeanu.cs.arizona.edu/mihai/). My primary area of interest is the use of structured (expert knowledge) by Large Language Models (LLM) agents. Specifically I have developed Neuro-symbolic techniques for parametrically integrating knowledge from symbolic reasoners in LLMs via reward modeling, and generating synthetic reward feedback data using weak supervision techniques. I have also previously worked on meta-algorithms for increasing diversity in LLM generated synthetic data, incorporating causal reasoning and pragmatics into retrieval augmented generation (RAG) frameworks, and exploiting structured linguistic knowledge for information extraction task.
 
 Before joining the UofA, I completed my undergraduate studies in Computer Science at the [School of Electrical Engineering and Computer Science](https://seecs.nust.edu.pk) at the [National University of Sciences and Technology](https://nust.edu.pk) in 2021.
 
 Besides work, I am learning to play the guitar. I enjoy rock climbing and hiking along the various trails surrounding Tucson. A long time ago, I memorized the spelling of every word in the English dictionary and was a finalist in the 4th Dawn in Education National Spelling Bee.
+
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
