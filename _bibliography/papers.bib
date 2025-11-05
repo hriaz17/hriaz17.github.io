@@ -65,23 +65,31 @@
     code={https://github.com/hriaz17/ELLEN}
 }
 
-@misc{RiazSayLess2025,
-  title={Say Less, Mean More: Leveraging Pragmatics in Retrieval-Augmented Generation},
-  author={Haris Riaz and Ellen Riloff and Mihai Surdeanu},
-  month = jan,
-  year={2025},
-  note={Under Submission},
-  url={https://openreview.net/pdf?id=rjjqKVuRlH},
-  abstract = "We propose a simple, unsupervised method that injects pragmatic principles in retrieval-augmented generation (RAG) frameworks such as Dense Passage Retrieval [9]. Our approach first identifies which sentences in a pool of documents retrieved by RAG are most relevant to the question at hand, cover all the topics addressed in the input question and no more, and then highlights these sentences in the documents before they are provided to the LLM. We show that this simple idea brings consistent improvements in experiments on three question answering tasks (ARC-Challenge, PubHealth and PopQA) using three different LLMs. It notably enhances accuracy by up to 19.7% compared to a conventional RAG system on PubHealth.",
-  selected={true},
-  pdf={saylessRAG.pdf},
-  code={https://github.com/hriaz17/SayLessRAG}
+@misc{riaz2025saylessmeanmore,
+    title={Say Less, Mean More: Leveraging Pragmatics in Retrieval-Augmented Generation}, 
+    author={Haris Riaz and Ellen Riloff and Mihai Surdeanu},
+    year={2025},
+    eprint={2502.17839},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL},
+    url={https://arxiv.org/abs/2502.17839}, 
+    abstract = "We propose a simple, unsupervised method that injects pragmatic principles in retrieval-augmented generation (RAG) frameworks such as Dense Passage Retrieval to enhance the utility of retrieved contexts. Our approach first identifies which sentences in a pool of documents retrieved by RAG are most relevant to the question at hand, cover all the topics addressed in the input question and no more, and then highlights these sentences within their context, before they are provided to the LLM, without truncating or altering the context in any other way. We show that this simple idea brings consistent improvements in experiments on three question answering tasks (ARC-Challenge, PubHealth and PopQA) using five different LLMs. It notably enhances relative accuracy by up to 19.7% on PubHealth and 10% on ARC-Challenge compared to a conventional RAG system.",
+    selected={true},
+    pdf={saylessRAG.pdf},
+    code={https://github.com/hriaz17/SayLessRAG}
 }
 
-@misc{RiazMetaSynth2025,
-  title={MetaSynth: Meta-Prompting Your Large Language Model to Generate Formally Diverse Synthetic Data},
-  month = jan,
-  year={2025},
-  note={Under Submission},
-  selected={true}
+@inproceedings{Riaz_2025,
+   title={MetaSynth: Meta-Prompting-Driven Agentic Scaffolds for Diverse Synthetic Data Generation},
+   url={http://dx.doi.org/10.18653/v1/2025.findings-acl.962},
+   abstract = "Recent smaller language models such Phi-3.5 and Phi-4 rely on synthetic data generated using larger Language models. Questions remain about leveraging synthetic data for other use cases, such as adapting LLMs to specific domains. A key limitation of synthetic data is low diversity, which negatively impacts its downstream applicability for improving other models. To address this, we propose MetaSynth, a method for generating synthetic data that enhances diversity through meta-prompting, where a language model orchestrates multiple "expert" LLM agents to collaboratively generate data. Using only 25 million tokens of synthetic data generated with MetaSynth, we successfully adapt a well-trained LLM (Mistral-7B-v0.3) to two specialized domains-Finance and Biomedicine-without compromising the capabilities of the resulting model in general tasks. In addition, we evaluate the diversity of our synthetic data using seven automated metrics, and find that it approaches the diversity of LLM pre-training corpora. Continually pre-training Mistral-7B-v0.3 with MetaSynth notably outperforms the base LLM, showing improvements of up to 4.08% in Finance and 13.75% in Biomedicine. The same model shows degraded performance when trained on data generated using a template prompt, even when the template includes prior generations and varying In-Context exemplars of real data. Our findings suggest that a few million tokens of diverse synthetic data without mixing any real data, is sufficient for effective domain adaptation when using MetaSynth.",
+   DOI={10.18653/v1/2025.findings-acl.962},
+   booktitle={Findings of the Association for Computational Linguistics: ACL 2025},
+   publisher={Association for Computational Linguistics},
+   author={Riaz, Haris and Bhabesh, Sourav Sanjukta and Arannil, Vinayak and Ballesteros, Miguel and Horwood, Graham},
+   year={2025},
+   pages={18770–18803},
+   selected={true},
+   pdf={MetaSynth.pdf},
 }
+
